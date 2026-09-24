@@ -1,3 +1,23 @@
 {
-  "targets": {}
+  "targets": {
+    "default": {
+      "resources": {
+        "runtimes": {
+          "longtermMemory": {
+            "runtimeId": "longterms_longtermMemory-Kki8geDV5Z",
+            "runtimeArn": "arn:aws:bedrock-agentcore:us-east-1:376187598854:runtime/longterms_longtermMemory-Kki8geDV5Z",
+            "roleArn": "arn:aws:iam::376187598854:role/AgentCore-longterms-defau-ApplicationAgentLongtermM-sdRmUc7eynke"
+          }
+        },
+        "memories": {
+          "longtermMemoryMemory": {
+            "memoryId": "longterms_longtermMemoryMemory-57Qj2t8Bbi",
+            "memoryArn": "arn:aws:bedrock-agentcore:us-east-1:376187598854:memory/longterms_longtermMemoryMemory-57Qj2t8Bbi"
+          }
+        },
+        "stackName": "AgentCore-longterms-default",
+        "deployHash": "fe2c15ed24d882f7"
+      }
+    }
+  }
 }
