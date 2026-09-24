@@ -1,4 +1,4 @@
-# TRavel agent with long term memory
+# Travel agent with long term memory
 
 ## Project Structure
 
